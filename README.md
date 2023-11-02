@@ -1,5 +1,6 @@
 # Convolutional Neural Network for CIFAR-10 Classification
 This repository contains code for training a Convolutional Neural Network (CNN) for the CIFAR-10 image classification task. The CIFAR-10 dataset consists of 60,000 32x32 color images in 10 classes, with 6,000 images per class.
+I initially attempted classification using a basic SVM approach with various kernels, but it yielded a notably low accuracy. Consequently, I switched to a straightforward CNN model.
 
 ## Dependencies
 The code is written in Python and uses the following libraries:
@@ -37,5 +38,4 @@ The CNN architecture used in this code consists of three convolutional layers fo
 ## Results
 The model is trained for 10 epochs on the CIFAR-10 dataset. The training and validation accuracy and loss are plotted using Matplotlib.
 
-## Credits
-The code is adapted from the official TensorFlow tutorial on CIFAR-10 classification.
+
